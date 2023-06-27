@@ -1,0 +1,30 @@
+ul{
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+ul li{
+    list-style: none;
+}
+.card{
+    width: 250px;
+    height: 150px;
+    text-transform: uppercase;
+    color: white;
+    transition: all 0.5s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card p{
+    font-size: 30px;
+}
+.card_name span{
+    font-size: 8px;
+}
+.card_total{
+    font-size: 25px;
+}
